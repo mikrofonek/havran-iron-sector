@@ -1,0 +1,52 @@
+IRON SECTOR — audio credits
+
+The Free Firearm Sound Library
+Recorded by Ben Jaszczak, Brian Nelson, Kevin Heras, and Matthew Nanney.
+License: Creative Commons CC0 1.0 Universal (public-domain dedication).
+https://creativecommons.org/publicdomain/zero/1.0/
+Primary source and license:
+https://opengameart.org/content/the-free-firearm-sound-library
+Download mirror:
+https://github.com/petroulacl/fps-asset-kit
+
+Original recordings used:
+1911/A_34P.wav — pistol
+Mossberg/N_30P.wav — shotgun
+AR-15/D_24P.wav — automatic weapon shot sample
+
+Edited for the game: first shot extracted, converted to mono 44.1 kHz
+16-bit PCM, filtered, gain reduced, tail faded. For the fictional Vulcan,
+a real AR-15 single-shot recording is repeated at the game's firing rate;
+it is not a recording of a real rotary cannon.
+
+All models, environment geometry and shader materials are original
+procedural work made for this game.
+
+Additional CC0 recordings in campaign version:
+Fantozzi's Footsteps (Grass/Sand & Stone), by Fantozzi; submitted by qubodup.
+https://opengameart.org/content/fantozzis-footsteps-grasssand-stone
+Fantozzi-StoneL1.flac and Fantozzi-StoneR1.flac converted to mono WAV.
+
+Gun reload sounds, by SpringySpringo (airsoft mechanisms), CC0.
+https://opengameart.org/content/gun-reload-sounds
+gunreload1.wav, assaultriflereload1_0.wav, shotguncock_0.wav.
+Converted to mono 44.1 kHz, high-pass filtered and gain adjusted.
+
+Two takes of each firearm are alternated in the campaign version.
+Original second-take offsets: pistol 6.64 s, Mossberg 4.95 s, AR-15 3.90 s.
+Generated visual assets are described in ART-NOTES.md.
+
+Original music score
+15 original instrumental cues, procedurally composed and synthesized
+for this game. Electric-bass, plucked-string, FM electric-piano and drum
+timbres; unique tempo, key and motif for each mission. No external music
+recordings or existing TV themes were used. Encoded to stereo MP3.
+Track titles, tempos and durations: music/TRACKS.json.
+
+Lea portrait: original AI-generated image, OpenAI image generation. Weapon preview SVGs and six painting motifs: original project artwork.
+
+5.0: Vizuální reference Flashback (1992), oficiální informace https://www.microids.com/game-flashback/ a prohlédnutý snímek https://regmedia.co.uk/2011/10/05/flashback_2.jpg . Žádné snímky, mapy ani cizí herní assety nejsou zahrnuty. Nové modely, siluety zbraní, lokace a texty jsou původní procedurální obsah HAVRAN.
+
+5.1: Original eight-material atlas generated with OpenAI image generation. Approximate normal detail derived from albedo luminance, authored roughness. Procedural architecture and character geometry are original. Half-Life 2 official gallery was viewed as art-direction reference only; no Valve assets are embedded. See MATERIALS-51.json and ART-NOTES.md.
+
+5.2: Freedoom E1M1 and MAP01 opening layouts inspected as reference for original simplified room sequences. Full copyright/license notice: third-party/FREEDOOM-COPYING.txt; provenance: FREEDOOM-REFERENCE.md. UZDoom p_enemy.cpp was read as a reference for general sound propagation and attack-state concepts. No UZDoom engine code is included. New JavaScript behavior implementation, door frames, room styling, evidence and fallen-character meshes are original HAVRAN work.

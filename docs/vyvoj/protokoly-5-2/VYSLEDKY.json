@@ -1,0 +1,70 @@
+{
+  "version": "5.2",
+  "tests": [
+    {
+      "test": "test-ai-52.cjs",
+      "passed": true,
+      "durationMs": 1109
+    },
+    {
+      "test": "test-character-shot-52.cjs",
+      "passed": true,
+      "durationMs": 341
+    },
+    {
+      "test": "test-combat-52.cjs",
+      "passed": true,
+      "durationMs": 358
+    },
+    {
+      "test": "test-corpse-52.cjs",
+      "passed": true,
+      "durationMs": 547
+    },
+    {
+      "test": "test-decor-52.cjs",
+      "passed": true,
+      "durationMs": 8985
+    },
+    {
+      "test": "test-gpu-contract-52.cjs",
+      "passed": true,
+      "durationMs": 1751
+    },
+    {
+      "test": "test-graphics-52.cjs",
+      "passed": true,
+      "durationMs": 6692
+    },
+    {
+      "test": "test-level-flow-52.cjs",
+      "passed": true,
+      "durationMs": 5625
+    },
+    {
+      "test": "test-release-52.cjs",
+      "passed": true,
+      "durationMs": 3689
+    },
+    {
+      "test": "test-render-52.cjs",
+      "passed": true,
+      "durationMs": 5955
+    },
+    {
+      "test": "test-settings-52.cjs",
+      "passed": true,
+      "durationMs": 130
+    },
+    {
+      "test": "test-smart-ai-52.cjs",
+      "passed": true,
+      "durationMs": 1345
+    },
+    {
+      "test": "test-tactics-52.cjs",
+      "passed": true,
+      "durationMs": 934
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "generatedWith": "OpenAI built-in image generation",
+  "sourceFile": "exec-0df0bf47-7f07-4c3a-a431-5662317df2b7.png",
+  "date": "2026-10-26",
+  "dimensions": [
+    2048,
+    1024
+  ],
+  "grid": [
+    4,
+    2
+  ],
+  "tiles": [
+    "lime plaster",
+    "brick",
+    "painted steel",
+    "concrete floor",
+    "leather",
+    "cloth",
+    "forest ground",
+    "bark"
+  ],
+  "properties": "RG approximate detail normal from blurred albedo luminance, B authored roughness; not scanned PBR maps",
+  "qa": [
+    {
+      "tile": 0,
+      "mean": [
+        174.4199981689453,
+        161.0399932861328,
+        141.9499969482422
+      ],
+      "edgeError": 0.0,
+      "gutter": 16,
+      "innerSize": 480
+    },
+    {
+      "tile": 1,
+      "mean": [
+        118.30999755859375,
+        89.38999938964844,
+        71.69000244140625
+      ],
+      "edgeError": 0.0,
+      "gutter": 16,
+      "innerSize": 480
+    },
+    {
+      "tile": 2,
+      "mean": [
+        94.94999694824219,
+        92.23999786376953,
+        74.81999969482422
+      ],
+      "edgeError": 0.0,
+      "gutter": 16,
+      "innerSize": 480
+    },
+    {
+      "tile": 3,
+      "mean": [
+        134.3699951171875,
+        124.22000122070312,
+        110.51000213623047
+      ],
+      "edgeError": 0.0,
+      "gutter": 16,
+      "innerSize": 480
+    },
+    {
+      "tile": 4,
+      "mean": [
+        68.56999969482422,
+        54.369998931884766,
+        45.22999954223633
+      ],
+      "edgeError": 0.0,
+      "gutter": 16,
+      "innerSize": 480
+    },
+    {
+      "tile": 5,
+      "mean": [
+        52.0,
+        55.119998931884766,
+        59.68000030517578
+      ],
+      "edgeError": 0.0,
+      "gutter": 16,
+      "innerSize": 480
+    },
+    {
+      "tile": 6,
+      "mean": [
+        79.62999725341797,
+        64.11000061035156,
+        48.060001373291016
+      ],
+      "edgeError": 0.0,
+      "gutter": 16,
+      "innerSize": 480
+    },
+    {
+      "tile": 7,
+      "mean": [
+        80.30999755859375,
+        71.05000305175781,
+        61.43000030517578
+      ],
+      "edgeError": 0.0,
+      "gutter": 16,
+      "innerSize": 480
+    }
+  ]
+}

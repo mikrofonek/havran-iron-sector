@@ -1,0 +1,29 @@
+const vm=require('vm');
+const {boot,gameRoot}=require('./test-graphics-53.cjs');
+for(const folder of ['iron-sector','havran-apple-silicon']){
+ const {c}=boot(folder);
+ vm.runInContext(`
+ function ai52Arena(map,player,guards=[]){loadStage(0);level=map;stage.obstacles=[];stage.gate={x:100,y:100};objectiveDone=true;arenaLocked=false;p={...player,z:0,a:0,pitch:0};hp=10000;armor=0;playing=true;projectiles=[];enemies=guards;}
+ const ai52Open=['111111111111','100000000001','100000000001','100000000001','100000000001','100000000001','100000000001','100000000001','111111111111'];
+ // Connected corridors carry a shot around a corner within eight walkable steps.
+ ai52Arena(['111111111','100010001','100010001','100010001','100010001','100000001','111111111'],{x:6.5,y:3.5});enemies=[enemy(2.5,3.5,0)];let guard=enemies[0];assert(!aiLine(guard,p));notifyEnemyShot();let brain=aiBrain(guard);assert.equal(brain.state,'investigate');assert.equal(brain.lastKnown.x,6.5);assert.equal(aiNoiseCache.cells.get(2+3*9),8);
+ // Nearby rooms separated by solid walls, or by an overlong detour, remain quiet.
+ ai52Arena(['111111111','100010001','100010001','100010001','100010001','100010001','111111111'],{x:6.5,y:3.5});enemies=[enemy(2.5,3.5,0)];notifyEnemyShot();assert.equal(aiBrain(enemies[0]).lastKnown,null,'sealed room blocks sound');
+ ai52Arena(['1111111111111','1000001000001','1000001000001','1000001000001','1000001000001','1000001000001','1000001000001','1000000000001','1111111111111'],{x:7.5,y:3.5});enemies=[enemy(5.5,3.5,0)];notifyEnemyShot();assert.equal(aiBrain(enemies[0]).lastKnown,null,'ten-step detour is beyond sound budget despite proximity');
+ // Opening the existing gate invalidates the cached sound field immediately.
+ ai52Arena(['1111111','1001001','1001001','1000001','1001001','1001001','1111111'],{x:1.5,y:3.5});stage.gate={x:3.5,y:3.5};objectiveDone=false;enemies=[enemy(5.5,3.5,0)];notifyEnemyShot();assert.equal(aiBrain(enemies[0]).lastKnown,null,'closed gate blocks sound');const buildsBeforeOpen=aiNoiseCache.builds;objectiveDone=true;notifyEnemyShot();assert.equal(aiNoiseCache.builds,buildsBeforeOpen+1);assert.equal(aiBrain(enemies[0]).state,'investigate','open gate carries sound');
+ // Automatic shots reuse one bounded field, and remember the shot position snapshot.
+ ai52Arena(ai52Open,{x:7.2,y:4.2});enemies=[enemy(3.5,4.5,0)];notifyEnemyShot();const builds=aiNoiseCache.builds;for(let i=0;i<100;i++)notifyEnemyShot();assert.equal(aiNoiseCache.builds,builds,'no repeated BFS for same cell/topology');assert(aiNoiseCache.cells.size<=145&&aiNoiseCache.cells.size<=level.length*level[0].length);p.x=7.7;p.y=4.7;notifyEnemyShot();assert.equal(aiNoiseCache.builds,builds);assert.equal(aiBrain(enemies[0]).lastKnown.x,7.7,'cached field still records actual fresh shot location');const heard=JSON.stringify(aiBrain(enemies[0]).lastKnown);p.x=9.5;p.y=6.5;assert.equal(JSON.stringify(aiBrain(enemies[0]).lastKnown),heard,'silent unseen move does not update memory');
+ // A friend between muzzle and target prevents launch, without spending ammunition.
+ ai52Arena(ai52Open,{x:8.5,y:4.5});guard=enemy(3.5,4.5,0);guard.role=0;const ally=enemy(5.5,4.5,2);enemies=[guard,ally];brain=aiBrain(guard);brain.visible=true;brain.lastKnown={...p};brain.memory=100;brain.think=999;brain.reaction=0;brain.tacticTimer=999;brain.aiming=true;brain.aimWindup=0;guard.t=0;const magazine=guard.magazine;updateSmartEnemy(guard,.01);assert.equal(projectiles.length,0);assert.equal(guard.magazine,magazine);assert(brain.fireBlocked);assert(aiClearFireLane(guard,0,5)===false);ally.y=6.5;assert(aiClearFireLane(guard,0,5));
+ // Dead allies and friends behind the player do not suppress a safe attack.
+ ally.hp=0;ally.y=4.5;assert(aiClearFireLane(guard,0,5));ally.hp=4;ally.x=10;assert(aiClearFireLane(guard,0,5));
+ // A new burst has a readable stationary aim interval; its second round has no extra windup.
+ ai52Arena(ai52Open,{x:6.5,y:4.5});guard=enemy(3.5,4.5,0);guard.role=0;enemies=[guard];brain=aiBrain(guard);brain.visible=true;brain.lastKnown={...p};brain.memory=100;brain.think=999;brain.reaction=0;brain.tacticTimer=999;guard.t=0;updateSmartEnemy(guard,.01);assert(brain.aiming&&brain.aimWindup>0);assert.equal(projectiles.length,0);const aimX=guard.x,aimY=guard.y;for(let i=0;i<8;i++)updateSmartEnemy(guard,.02);assert.equal(projectiles.length,0,'no instant shot');assert.equal(guard.x,aimX,'holds position during aim');assert.equal(guard.y,aimY);for(let i=0;i<3;i++)updateSmartEnemy(guard,.02);assert.equal(projectiles.length,1);assert.equal(brain.burstLeft,1);for(let i=0;i<12;i++)updateSmartEnemy(guard,.02);assert.equal(projectiles.length,2,'second burst round without another aim wait');
+ // The clear lane is rechecked after windup if an ally enters it.
+ ai52Arena(ai52Open,{x:8.5,y:4.5});guard=enemy(3.5,4.5,0);guard.role=0;enemies=[guard];brain=aiBrain(guard);brain.visible=true;brain.lastKnown={...p};brain.memory=100;brain.think=999;brain.reaction=0;brain.tacticTimer=999;guard.t=0;updateSmartEnemy(guard,.01);enemies.push(enemy(5.5,4.5,2));for(let i=0;i<20;i++)updateSmartEnemy(guard,.02);assert.equal(projectiles.length,0,'no launch through ally entering firing lane');assert(guard.magazine>0);
+ // Reload cancels preparation and the authored initial guard remains knife-killable.
+ brain.aiming=true;brain.aimWindup=.1;aiStartReload(guard,brain);assert(!brain.aiming&&brain.aimWindup===0);loadStage(0);playing=true;guard=enemies[0];assert.equal(guard.hp,4);assert(guard.t>=1.5);p.x=guard.x-.6;p.y=guard.y;p.a=0;weapon=6;shot=0;switchTime=0;fire();assert.equal(guard.hp,0);
+ `,c);
+ console.log('PASS '+folder+': corridor-limited noise, solid walls and closed gate block sound, bounded cached flood, remembered shot snapshots, ally-safe lanes, stationary initial windup and fair knife guard');
+}

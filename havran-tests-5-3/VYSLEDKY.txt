@@ -1,0 +1,421 @@
+
+test-ai-53.cjs
+PASS iron-sector: corridor-limited noise, solid walls and closed gate block sound, bounded cached flood, remembered shot snapshots, ally-safe lanes, stationary initial windup and fair knife guard
+PASS havran-apple-silicon: corridor-limited noise, solid walls and closed gate block sound, bounded cached flood, remembered shot snapshots, ally-safe lanes, stationary initial windup and fair knife guard
+
+test-boss-53.cjs
+PASS iron-sector: boss route, collision, look & attack tell, recovery, phase II, variant patterns, arena confinement and no-save training across campaign
+PASS havran-apple-silicon: boss route, collision, look & attack tell, recovery, phase II, variant patterns, arena confinement and no-save training across campaign
+
+test-character-53.cjs
+PASS iron-sector: four guard and six boss silhouettes, all five attack tells, recovery, phase 2, actual yaw/velocity, simulation untouched; max 5427/6579 guard/boss vertices, 96 cached poses
+PASS havran-apple-silicon: four guard and six boss silhouettes, all five attack tells, recovery, phase 2, actual yaw/velocity, simulation untouched; max 5427/6579 guard/boss vertices, 96 cached poses
+
+test-character-shot-53.cjs
+PASS iron-sector: actual last-mag launch keeps flash + firing pose, then lowers weapon after attack expires; cached recoil keeps pistol/rifle barrel, sight, scope and flash attached
+PASS havran-apple-silicon: actual last-mag launch keeps flash + firing pose, then lowers weapon after attack expires; cached recoil keeps pistol/rifle barrel, sight, scope and flash attached
+
+test-combat-53.cjs
+PASS iron-sector: unchanged projectile physics/AI timer, 1-in-6 muted non-emissive thin tracers, all boss cues, visibility masks, 35 ms small last-round flash, unchanged reload pose
+PASS havran-apple-silicon: unchanged projectile physics/AI timer, 1-in-6 muted non-emissive thin tracers, all boss cues, visibility masks, 35 ms small last-round flash, unchanged reload pose
+
+test-corpse-53.cjs
+PASS iron-sector: 4 wardrobes and bosses retain anatomy lying on floor, finite unit-normal geometry, no duplicated held weapon, bounded resting height, one-time cached bodies, unchanged collision
+PASS havran-apple-silicon: 4 wardrobes and bosses retain anatomy lying on floor, finite unit-normal geometry, no duplicated held weapon, bounded resting height, one-time cached bodies, unchanged collision
+
+test-decor-53.cjs
+Meshes: furniture 30312–30312 vertices; plant 3672 vertices; world 92649–121071 vertices
+PASS iron-sector: all 15 roomZones dressed; 2 paired tables, inward sofa, varied flush wall paintings; physical E clue/terminal/exit/supply approaches, clear two-wide door lanes, finite low-budget furniture/world meshes
+Meshes: furniture 30312–30312 vertices; plant 3672 vertices; world 92649–121071 vertices
+PASS havran-apple-silicon: all 15 roomZones dressed; 2 paired tables, inward sofa, varied flush wall paintings; physical E clue/terminal/exit/supply approaches, clear two-wide door lanes, finite low-budget furniture/world meshes
+
+test-demo-53.cjs
+PASS actual standalone demo: one playable mission, one soundtrack, no other mission access, no campaign writes, exit and replay
+
+test-gpu-contract-53.cjs
+PASS: instance attributes, material flags, two meshes, draw instance counts, divisor reset, dynamic buffer restoration and CPU fallback
+PASS: GPU instance data for all 15 levels and 19 weapons including knife; three graphics profiles
+PASS: shared window lighting uniforms and world/viewmodel pass semantics
+PASS: detailed character GPU path, reload and real locomotion state combinations, bounded pose cache
+PASS: residual flash on knife stays finite with no muzzle flash; R6 short muzzle placement in two view angles
+
+test-graphics-53.cjs
+World vertices min/max 92649 121071
+PASS iron-sector: 15 seeded missions, all evidence and exits reachable, knife start/kill/drop/E pickup, 18 guns shoot+reload, swept wall/object/body collision, achievements, economy, legacy saves/v2 roundtrip, inventory toggle, 15 indoor missions, 15 world meshes and 19 weapon meshes
+World vertices min/max 92649 121071
+PASS havran-apple-silicon: 15 seeded missions, all evidence and exits reachable, knife start/kill/drop/E pickup, 18 guns shoot+reload, swept wall/object/body collision, achievements, economy, legacy saves/v2 roundtrip, inventory toggle, 15 indoor missions, 15 world meshes and 19 weapon meshes
+
+test-guards-53.cjs
+PASS iron-sector: distinct guard roles, held decisions and reserved cells, local support, cover reload, bounded patrol/search, fresh reports, stationary knife opening in all 15 missions
+PASS havran-apple-silicon: distinct guard roles, held decisions and reserved cells, local support, cover reload, bounded patrol/search, fresh reports, stationary knife opening in all 15 missions
+
+test-level-flow-53.cjs
+PASS iron-sector: 15 simple three-room routes, ordered evidence, furniture-aware reachability, physical exit approach, preserved arena/knife start, <=1 optional alcove, no maze loops
+PASS havran-apple-silicon: 15 simple three-room routes, ordered evidence, furniture-aware reachability, physical exit approach, preserved arena/knife start, <=1 optional alcove, no maze loops
+[
+  {
+    "folder": "iron-sector",
+    "beforeAverageSteps": 32.4,
+    "afterAverageSteps": 17.7,
+    "reductionPercent": 45,
+    "beforeRange": [
+      32,
+      34
+    ],
+    "afterRange": [
+      17,
+      18
+    ],
+    "all": [
+      {
+        "mission": 1,
+        "steps": 17,
+        "evidenceDistances": [
+          1,
+          6,
+          14
+        ],
+        "openCells": 299
+      },
+      {
+        "mission": 2,
+        "steps": 17,
+        "evidenceDistances": [
+          1,
+          6,
+          14
+        ],
+        "openCells": 305
+      },
+      {
+        "mission": 3,
+        "steps": 17,
+        "evidenceDistances": [
+          1,
+          8,
+          14
+        ],
+        "openCells": 299
+      },
+      {
+        "mission": 4,
+        "steps": 17,
+        "evidenceDistances": [
+          1,
+          6,
+          14
+        ],
+        "openCells": 305
+      },
+      {
+        "mission": 5,
+        "steps": 17,
+        "evidenceDistances": [
+          1,
+          6,
+          14
+        ],
+        "openCells": 299
+      },
+      {
+        "mission": 6,
+        "steps": 18,
+        "evidenceDistances": [
+          1,
+          6,
+          13
+        ],
+        "openCells": 300
+      },
+      {
+        "mission": 7,
+        "steps": 18,
+        "evidenceDistances": [
+          1,
+          6,
+          13
+        ],
+        "openCells": 306
+      },
+      {
+        "mission": 8,
+        "steps": 18,
+        "evidenceDistances": [
+          1,
+          6,
+          13
+        ],
+        "openCells": 300
+      },
+      {
+        "mission": 9,
+        "steps": 18,
+        "evidenceDistances": [
+          1,
+          6,
+          13
+        ],
+        "openCells": 306
+      },
+      {
+        "mission": 10,
+        "steps": 18,
+        "evidenceDistances": [
+          1,
+          6,
+          13
+        ],
+        "openCells": 300
+      },
+      {
+        "mission": 11,
+        "steps": 18,
+        "evidenceDistances": [
+          1,
+          8,
+          15
+        ],
+        "openCells": 293
+      },
+      {
+        "mission": 12,
+        "steps": 18,
+        "evidenceDistances": [
+          1,
+          8,
+          13
+        ],
+        "openCells": 299
+      },
+      {
+        "mission": 13,
+        "steps": 18,
+        "evidenceDistances": [
+          1,
+          8,
+          13
+        ],
+        "openCells": 293
+      },
+      {
+        "mission": 14,
+        "steps": 18,
+        "evidenceDistances": [
+          1,
+          8,
+          15
+        ],
+        "openCells": 299
+      },
+      {
+        "mission": 15,
+        "steps": 18,
+        "evidenceDistances": [
+          1,
+          8,
+          13
+        ],
+        "openCells": 293
+      }
+    ]
+  },
+  {
+    "folder": "havran-apple-silicon",
+    "beforeAverageSteps": 32.4,
+    "afterAverageSteps": 17.7,
+    "reductionPercent": 45,
+    "beforeRange": [
+      32,
+      34
+    ],
+    "afterRange": [
+      17,
+      18
+    ],
+    "all": [
+      {
+        "mission": 1,
+        "steps": 17,
+        "evidenceDistances": [
+          1,
+          6,
+          14
+        ],
+        "openCells": 299
+      },
+      {
+        "mission": 2,
+        "steps": 17,
+        "evidenceDistances": [
+          1,
+          6,
+          14
+        ],
+        "openCells": 305
+      },
+      {
+        "mission": 3,
+        "steps": 17,
+        "evidenceDistances": [
+          1,
+          8,
+          14
+        ],
+        "openCells": 299
+      },
+      {
+        "mission": 4,
+        "steps": 17,
+        "evidenceDistances": [
+          1,
+          6,
+          14
+        ],
+        "openCells": 305
+      },
+      {
+        "mission": 5,
+        "steps": 17,
+        "evidenceDistances": [
+          1,
+          6,
+          14
+        ],
+        "openCells": 299
+      },
+      {
+        "mission": 6,
+        "steps": 18,
+        "evidenceDistances": [
+          1,
+          6,
+          13
+        ],
+        "openCells": 300
+      },
+      {
+        "mission": 7,
+        "steps": 18,
+        "evidenceDistances": [
+          1,
+          6,
+          13
+        ],
+        "openCells": 306
+      },
+      {
+        "mission": 8,
+        "steps": 18,
+        "evidenceDistances": [
+          1,
+          6,
+          13
+        ],
+        "openCells": 300
+      },
+      {
+        "mission": 9,
+        "steps": 18,
+        "evidenceDistances": [
+          1,
+          6,
+          13
+        ],
+        "openCells": 306
+      },
+      {
+        "mission": 10,
+        "steps": 18,
+        "evidenceDistances": [
+          1,
+          6,
+          13
+        ],
+        "openCells": 300
+      },
+      {
+        "mission": 11,
+        "steps": 18,
+        "evidenceDistances": [
+          1,
+          8,
+          15
+        ],
+        "openCells": 293
+      },
+      {
+        "mission": 12,
+        "steps": 18,
+        "evidenceDistances": [
+          1,
+          8,
+          13
+        ],
+        "openCells": 299
+      },
+      {
+        "mission": 13,
+        "steps": 18,
+        "evidenceDistances": [
+          1,
+          8,
+          13
+        ],
+        "openCells": 293
+      },
+      {
+        "mission": 14,
+        "steps": 18,
+        "evidenceDistances": [
+          1,
+          8,
+          15
+        ],
+        "openCells": 299
+      },
+      {
+        "mission": 15,
+        "steps": 18,
+        "evidenceDistances": [
+          1,
+          8,
+          13
+        ],
+        "openCells": 293
+      }
+    ]
+  }
+]
+
+test-lifecycle-53.cjs
+PASS both variants: death update abort, radio restart, boss completion guards
+
+test-regression-53.cjs
+iron-sector: 140/140 regression cases; {"loot":18,"reload":18,"switch":18,"economy":20,"navigation":15,"reset":15,"input":12,"save validation":19,"combat":5}
+havran-apple-silicon: 140/140 regression cases; {"loot":18,"reload":18,"switch":18,"economy":20,"navigation":15,"reset":15,"input":12,"save validation":19,"combat":5}
+
+test-release-53.cjs
+PASS iron-sector: navigation starts OFF and toggles once per N press; all 15 missions deterministic, body-clear evidence/terminal/exit paths, ordered E pickups, closed walls, knife first guard; finite static wayfinding without collision changes, distinct evidence models, restrained impacts/bullets and sparse optional route dots
+{"folder":"iron-sector","maps":[{"width":31,"height":35,"openCells":299,"evidenceDistances":[1,6,14]},{"width":31,"height":35,"openCells":305,"evidenceDistances":[1,6,14]},{"width":31,"height":35,"openCells":299,"evidenceDistances":[1,8,14]},{"width":31,"height":35,"openCells":305,"evidenceDistances":[1,6,14]},{"width":31,"height":35,"openCells":299,"evidenceDistances":[1,6,14]},{"width":31,"height":35,"openCells":300,"evidenceDistances":[1,6,13]},{"width":31,"height":35,"openCells":306,"evidenceDistances":[1,6,13]},{"width":31,"height":35,"openCells":300,"evidenceDistances":[1,6,13]},{"width":31,"height":35,"openCells":306,"evidenceDistances":[1,6,13]},{"width":31,"height":35,"openCells":300,"evidenceDistances":[1,6,13]},{"width":31,"height":35,"openCells":293,"evidenceDistances":[1,8,15]},{"width":31,"height":35,"openCells":299,"evidenceDistances":[1,8,13]},{"width":31,"height":35,"openCells":293,"evidenceDistances":[1,8,13]},{"width":31,"height":35,"openCells":299,"evidenceDistances":[1,8,15]},{"width":31,"height":35,"openCells":293,"evidenceDistances":[1,8,13]}]}
+PASS havran-apple-silicon: navigation starts OFF and toggles once per N press; all 15 missions deterministic, body-clear evidence/terminal/exit paths, ordered E pickups, closed walls, knife first guard; finite static wayfinding without collision changes, distinct evidence models, restrained impacts/bullets and sparse optional route dots
+{"folder":"havran-apple-silicon","maps":[{"width":31,"height":35,"openCells":299,"evidenceDistances":[1,6,14]},{"width":31,"height":35,"openCells":305,"evidenceDistances":[1,6,14]},{"width":31,"height":35,"openCells":299,"evidenceDistances":[1,8,14]},{"width":31,"height":35,"openCells":305,"evidenceDistances":[1,6,14]},{"width":31,"height":35,"openCells":299,"evidenceDistances":[1,6,14]},{"width":31,"height":35,"openCells":300,"evidenceDistances":[1,6,13]},{"width":31,"height":35,"openCells":306,"evidenceDistances":[1,6,13]},{"width":31,"height":35,"openCells":300,"evidenceDistances":[1,6,13]},{"width":31,"height":35,"openCells":306,"evidenceDistances":[1,6,13]},{"width":31,"height":35,"openCells":300,"evidenceDistances":[1,6,13]},{"width":31,"height":35,"openCells":293,"evidenceDistances":[1,8,15]},{"width":31,"height":35,"openCells":299,"evidenceDistances":[1,8,13]},{"width":31,"height":35,"openCells":293,"evidenceDistances":[1,8,13]},{"width":31,"height":35,"openCells":299,"evidenceDistances":[1,8,15]},{"width":31,"height":35,"openCells":293,"evidenceDistances":[1,8,13]}]}
+
+test-render-53.cjs
+PASS iron-sector: 15 detailed worlds, semantic materials, unchanged collision dressing, 4 roles × attack/hit combinations, bounded pose cache, matching shader precision, retained instancing tokens, 8 padded POT materials
+PASS havran-apple-silicon: 15 detailed worlds, semantic materials, unchanged collision dressing, 4 roles × attack/hit combinations, bounded pose cache, matching shader precision, retained instancing tokens, 8 padded POT materials
+PASS: cinematic target resize, presentation, depth/texture restoration, direct-render fallback
+
+test-settings-53.cjs
+PASS iron-sector: eight accessible presets, live preview, custom color, persistence/reload, invalid values, storage denial, retained FOV/sensitivity, contrast outline and separate hit feedback
+PASS havran-apple-silicon: eight accessible presets, live preview, custom color, persistence/reload, invalid values, storage denial, retained FOV/sensitivity, contrast outline and separate hit feedback
+
+test-smart-ai-53.cjs
+PASS: routing around walls, hearing, search memory, no hidden-player tracking, idle timeout, reaction delay, sniper retreat and attack
+PASS: 15 mission AI simulations, bounded paths, finite positions and no movement into blocked cells
+
+test-tactics-53.cjs
+PASS iron-sector: bounded local snapshot alerts, wall-occluded sharing, no x-ray damage tracking, reachable cover/flank, finite magazine/reload pauses, burst gaps, cached BFS budget, actual locomotion flags and fair knife start
+PASS havran-apple-silicon: bounded local snapshot alerts, wall-occluded sharing, no x-ray damage tracking, reachable cover/flank, finite magazine/reload pauses, burst gaps, cached BFS budget, actual locomotion flags and fair knife start
+
+test-uat-53.cjs
+UAT: 210 passed, 0 failed, 0 blocked

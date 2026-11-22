@@ -1,0 +1,105 @@
+{
+  "version": "5.3",
+  "tests": [
+    {
+      "test": "test-ai-53.cjs",
+      "passed": true,
+      "durationMs": 3587
+    },
+    {
+      "test": "test-boss-53.cjs",
+      "passed": true,
+      "durationMs": 7719
+    },
+    {
+      "test": "test-character-53.cjs",
+      "passed": true,
+      "durationMs": 3430
+    },
+    {
+      "test": "test-character-shot-53.cjs",
+      "passed": true,
+      "durationMs": 782
+    },
+    {
+      "test": "test-combat-53.cjs",
+      "passed": true,
+      "durationMs": 986
+    },
+    {
+      "test": "test-corpse-53.cjs",
+      "passed": true,
+      "durationMs": 855
+    },
+    {
+      "test": "test-decor-53.cjs",
+      "passed": true,
+      "durationMs": 12573
+    },
+    {
+      "test": "test-demo-53.cjs",
+      "passed": true,
+      "durationMs": 562
+    },
+    {
+      "test": "test-gpu-contract-53.cjs",
+      "passed": true,
+      "durationMs": 3919
+    },
+    {
+      "test": "test-graphics-53.cjs",
+      "passed": true,
+      "durationMs": 17776
+    },
+    {
+      "test": "test-guards-53.cjs",
+      "passed": true,
+      "durationMs": 6169
+    },
+    {
+      "test": "test-level-flow-53.cjs",
+      "passed": true,
+      "durationMs": 21753
+    },
+    {
+      "test": "test-lifecycle-53.cjs",
+      "passed": true,
+      "durationMs": 2102
+    },
+    {
+      "test": "test-regression-53.cjs",
+      "passed": true,
+      "durationMs": 62233
+    },
+    {
+      "test": "test-release-53.cjs",
+      "passed": true,
+      "durationMs": 9790
+    },
+    {
+      "test": "test-render-53.cjs",
+      "passed": true,
+      "durationMs": 10539
+    },
+    {
+      "test": "test-settings-53.cjs",
+      "passed": true,
+      "durationMs": 272
+    },
+    {
+      "test": "test-smart-ai-53.cjs",
+      "passed": true,
+      "durationMs": 2917
+    },
+    {
+      "test": "test-tactics-53.cjs",
+      "passed": true,
+      "durationMs": 2926
+    },
+    {
+      "test": "test-uat-53.cjs",
+      "passed": true,
+      "durationMs": 12435
+    }
+  ]
+}

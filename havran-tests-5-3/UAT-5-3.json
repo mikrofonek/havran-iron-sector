@@ -1,0 +1,1477 @@
+{
+  "passed": 210,
+  "failed": 0,
+  "blocked": 0,
+  "cases": [
+    {
+      "edition": "iron-sector",
+      "chapter": 1,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 1,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 1,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 1,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 1,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 1,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 1,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 2,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 2,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 2,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 2,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 2,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 2,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 2,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 3,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 3,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 3,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 3,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 3,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 3,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 3,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 4,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 4,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 4,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 4,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 4,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 4,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 4,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 5,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 5,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 5,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 5,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 5,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 5,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 5,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 6,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 6,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 6,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 6,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 6,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 6,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 6,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 7,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 7,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 7,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 7,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 7,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 7,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 7,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 8,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 8,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 8,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 8,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 8,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 8,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 8,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 9,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 9,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 9,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 9,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 9,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 9,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 9,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 10,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 10,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 10,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 10,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 10,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 10,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 10,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 11,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 11,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 11,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 11,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 11,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 11,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 11,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 12,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 12,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 12,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 12,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 12,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 12,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 12,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 13,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 13,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 13,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 13,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 13,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 13,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 13,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 14,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 14,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 14,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 14,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 14,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 14,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 14,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 15,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 15,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 15,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 15,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 15,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 15,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "iron-sector",
+      "chapter": 15,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 1,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 1,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 1,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 1,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 1,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 1,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 1,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 2,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 2,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 2,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 2,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 2,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 2,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 2,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 3,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 3,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 3,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 3,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 3,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 3,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 3,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 4,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 4,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 4,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 4,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 4,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 4,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 4,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 5,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 5,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 5,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 5,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 5,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 5,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 5,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 6,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 6,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 6,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 6,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 6,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 6,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 6,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 7,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 7,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 7,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 7,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 7,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 7,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 7,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 8,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 8,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 8,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 8,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 8,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 8,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 8,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 9,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 9,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 9,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 9,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 9,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 9,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 9,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 10,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 10,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 10,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 10,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 10,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 10,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 10,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 11,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 11,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 11,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 11,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 11,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 11,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 11,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 12,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 12,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 12,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 12,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 12,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 12,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 12,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 13,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 13,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 13,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 13,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 13,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 13,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 13,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 14,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 14,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 14,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 14,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 14,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 14,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 14,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 15,
+      "key": "briefing",
+      "expected": "Beze zbraně kromě nože, cíl a místnost odpovídají vybrané kapitole",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 15,
+      "key": "loot",
+      "expected": "První stráž padne po zásahu nožem a E sebere její pistoli",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 15,
+      "key": "denied",
+      "expected": "Terminál vyžaduje úplnou sadu důkazů",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 15,
+      "key": "evidence",
+      "expected": "Tři důkazy dosažitelné chůzí, E je vezme a I zobrazí jejich obsah",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 15,
+      "key": "gate",
+      "expected": "Terminál otevře bránu, průchod do arény ji zamkne",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 15,
+      "key": "boss",
+      "expected": "Boss vydrží první výměnu, pohybuje se a hráč jej může porazit",
+      "status": "passed"
+    },
+    {
+      "edition": "havran-apple-silicon",
+      "chapter": 15,
+      "key": "exit",
+      "expected": "Fyzický přístup k východu uzavře misi a uloží další kapitolu",
+      "status": "passed"
+    }
+  ]
+}

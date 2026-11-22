@@ -1,0 +1,25 @@
+name: Chyba ve hře
+description: Popiš problém a postup, kterým jej lze zopakovat.
+title: "[Chyba] "
+body:
+  - type: input
+    id: setup
+    attributes:
+      label: Počítač a prohlížeč
+      placeholder: macOS, M1, Edge, verze prohlížeče
+    validations:
+      required: true
+  - type: input
+    id: mission
+    attributes:
+      label: Verze, varianta a kapitola
+      placeholder: 5.3, Apple Silicon GPU, kapitola 3
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Co se stalo a jak to zopakovat
+      description: Uveď také očekávaný výsledek. Můžeš přidat snímek.
+    validations:
+      required: true

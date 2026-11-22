@@ -1,0 +1,372 @@
+
+test-character-shot-51.cjs
+PASS iron-sector: actual last-mag launch keeps flash + firing pose, then lowers weapon after attack expires; cached recoil keeps pistol/rifle barrel, sight, scope and flash attached
+PASS havran-apple-silicon: actual last-mag launch keeps flash + firing pose, then lowers weapon after attack expires; cached recoil keeps pistol/rifle barrel, sight, scope and flash attached
+
+test-gpu-contract-51.cjs
+PASS: instance attributes, material flags, two meshes, draw instance counts, divisor reset, dynamic buffer restoration and CPU fallback
+PASS: GPU instance data for all 15 levels and 19 weapons including knife; three graphics profiles
+PASS: shared window lighting uniforms and world/viewmodel pass semantics
+PASS: detailed character GPU path, reload and real locomotion state combinations, bounded pose cache
+PASS: residual flash on knife stays finite with no muzzle flash; R6 short muzzle placement in two view angles
+
+test-graphics-51.cjs
+World vertices min/max 120576 269466
+PASS iron-sector: 15 seeded missions, all evidence and exits reachable, knife start/kill/drop/E pickup, 18 guns shoot+reload, swept wall/object/body collision, achievements, economy, legacy saves/v2 roundtrip, inventory toggle, forest wildlife, 15 world meshes and 19 weapon meshes
+World vertices min/max 120576 269466
+PASS havran-apple-silicon: 15 seeded missions, all evidence and exits reachable, knife start/kill/drop/E pickup, 18 guns shoot+reload, swept wall/object/body collision, achievements, economy, legacy saves/v2 roundtrip, inventory toggle, forest wildlife, 15 world meshes and 19 weapon meshes
+
+test-level-flow-51.cjs
+PASS iron-sector: 15 compact routes, ordered evidence, furniture-aware reachability, physical exit approach, preserved anchors/knife start, 2 optional branches, 1 return loop
+PASS havran-apple-silicon: 15 compact routes, ordered evidence, furniture-aware reachability, physical exit approach, preserved anchors/knife start, 2 optional branches, 1 return loop
+[
+  {
+    "folder": "iron-sector",
+    "beforeAverageSteps": 172.3,
+    "afterAverageSteps": 32.4,
+    "reductionPercent": 81,
+    "beforeRange": [
+      90,
+      286
+    ],
+    "afterRange": [
+      32,
+      34
+    ],
+    "all": [
+      {
+        "mission": 1,
+        "steps": 32,
+        "evidenceDistances": [
+          5,
+          10,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 2,
+        "steps": 34,
+        "evidenceDistances": [
+          7,
+          10,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 3,
+        "steps": 32,
+        "evidenceDistances": [
+          5,
+          10,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 4,
+        "steps": 32,
+        "evidenceDistances": [
+          7,
+          10,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 5,
+        "steps": 32,
+        "evidenceDistances": [
+          5,
+          12,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 6,
+        "steps": 32,
+        "evidenceDistances": [
+          7,
+          12,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 7,
+        "steps": 32,
+        "evidenceDistances": [
+          5,
+          10,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 8,
+        "steps": 34,
+        "evidenceDistances": [
+          7,
+          10,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 9,
+        "steps": 32,
+        "evidenceDistances": [
+          5,
+          10,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 10,
+        "steps": 32,
+        "evidenceDistances": [
+          7,
+          10,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 11,
+        "steps": 32,
+        "evidenceDistances": [
+          5,
+          12,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 12,
+        "steps": 32,
+        "evidenceDistances": [
+          7,
+          12,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 13,
+        "steps": 32,
+        "evidenceDistances": [
+          5,
+          10,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 14,
+        "steps": 34,
+        "evidenceDistances": [
+          7,
+          10,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 15,
+        "steps": 32,
+        "evidenceDistances": [
+          5,
+          10,
+          17
+        ],
+        "openCells": 325
+      }
+    ]
+  },
+  {
+    "folder": "havran-apple-silicon",
+    "beforeAverageSteps": 172.3,
+    "afterAverageSteps": 32.4,
+    "reductionPercent": 81,
+    "beforeRange": [
+      90,
+      286
+    ],
+    "afterRange": [
+      32,
+      34
+    ],
+    "all": [
+      {
+        "mission": 1,
+        "steps": 32,
+        "evidenceDistances": [
+          5,
+          10,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 2,
+        "steps": 34,
+        "evidenceDistances": [
+          7,
+          10,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 3,
+        "steps": 32,
+        "evidenceDistances": [
+          5,
+          10,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 4,
+        "steps": 32,
+        "evidenceDistances": [
+          7,
+          10,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 5,
+        "steps": 32,
+        "evidenceDistances": [
+          5,
+          12,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 6,
+        "steps": 32,
+        "evidenceDistances": [
+          7,
+          12,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 7,
+        "steps": 32,
+        "evidenceDistances": [
+          5,
+          10,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 8,
+        "steps": 34,
+        "evidenceDistances": [
+          7,
+          10,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 9,
+        "steps": 32,
+        "evidenceDistances": [
+          5,
+          10,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 10,
+        "steps": 32,
+        "evidenceDistances": [
+          7,
+          10,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 11,
+        "steps": 32,
+        "evidenceDistances": [
+          5,
+          12,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 12,
+        "steps": 32,
+        "evidenceDistances": [
+          7,
+          12,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 13,
+        "steps": 32,
+        "evidenceDistances": [
+          5,
+          10,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 14,
+        "steps": 34,
+        "evidenceDistances": [
+          7,
+          10,
+          17
+        ],
+        "openCells": 325
+      },
+      {
+        "mission": 15,
+        "steps": 32,
+        "evidenceDistances": [
+          5,
+          10,
+          17
+        ],
+        "openCells": 325
+      }
+    ]
+  }
+]
+
+test-render-51.cjs
+PASS iron-sector: 15 detailed worlds, semantic materials, unchanged collision dressing, 4 roles × attack/hit combinations, bounded pose cache, matching shader precision, retained instancing tokens, 8 padded POT materials
+PASS havran-apple-silicon: 15 detailed worlds, semantic materials, unchanged collision dressing, 4 roles × attack/hit combinations, bounded pose cache, matching shader precision, retained instancing tokens, 8 padded POT materials
+PASS: cinematic target resize, presentation, depth/texture restoration, direct-render fallback
+
+test-settings-51.cjs
+PASS iron-sector: eight accessible presets, live preview, custom color, persistence/reload, invalid values, storage denial, retained FOV/sensitivity, contrast outline and separate hit feedback
+PASS havran-apple-silicon: eight accessible presets, live preview, custom color, persistence/reload, invalid values, storage denial, retained FOV/sensitivity, contrast outline and separate hit feedback
+
+test-smart-ai-51.cjs
+PASS: routing around walls, hearing, search memory, no hidden-player tracking, idle timeout, reaction delay, sniper retreat and attack
+PASS: 15 mission AI simulations, bounded paths, finite positions and no movement into blocked cells
+
+test-tactics-51.cjs
+PASS iron-sector: bounded local snapshot alerts, wall-occluded sharing, no x-ray damage tracking, reachable cover/flank, finite magazine/reload pauses, burst gaps, cached BFS budget, actual locomotion flags and fair knife start
+PASS havran-apple-silicon: bounded local snapshot alerts, wall-occluded sharing, no x-ray damage tracking, reachable cover/flank, finite magazine/reload pauses, burst gaps, cached BFS budget, actual locomotion flags and fair knife start

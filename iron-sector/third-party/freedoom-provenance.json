@@ -1,0 +1,103 @@
+{
+  "project": "Freedoom",
+  "commit": "3ac019628d70b812ffb722f7f2365771b76a9d29",
+  "referenceUse": "opening-flow-reference-only; original HAVRAN layouts, not exact WAD ports",
+  "files": {
+    "e1m1.wad": {
+      "sha256": "d8acd8cf992f1f3af907634587f8a40765d6c43ac15adef1bfa29a2ff1b9e83d",
+      "bytes": 142093,
+      "magic": "PWAD",
+      "lumpNames": [
+        "E1M1",
+        "THINGS",
+        "LINEDEFS",
+        "SIDEDEFS",
+        "VERTEXES",
+        "SEGS",
+        "SSECTORS",
+        "NODES",
+        "SECTORS",
+        "REJECT",
+        "BLOCKMAP"
+      ],
+      "vertices": 1196,
+      "linedefs": 1175,
+      "sectors": 182,
+      "bounds": [
+        -704,
+        -1064,
+        3248,
+        2336
+      ],
+      "player1": {
+        "x": -416,
+        "y": 256,
+        "angle": 0
+      },
+      "keys": [
+        {
+          "x": 2192,
+          "y": 576,
+          "type": 5
+        }
+      ],
+      "exitLines": [
+        {
+          "line": 407,
+          "special": 11,
+          "midpoint": [
+            -400.0,
+            1296.0
+          ]
+        }
+      ]
+    },
+    "map01.wad": {
+      "sha256": "d9da5d7f8d97d6555182a04326f306dde6fd40da1186a6fec18143c7ccddd20d",
+      "bytes": 124013,
+      "magic": "PWAD",
+      "lumpNames": [
+        "MAP01",
+        "THINGS",
+        "LINEDEFS",
+        "SIDEDEFS",
+        "VERTEXES",
+        "SEGS",
+        "SSECTORS",
+        "NODES",
+        "SECTORS",
+        "REJECT",
+        "BLOCKMAP"
+      ],
+      "vertices": 1233,
+      "linedefs": 1272,
+      "sectors": 206,
+      "bounds": [
+        -248,
+        -1800,
+        2176,
+        1600
+      ],
+      "player1": {
+        "x": -192,
+        "y": -192,
+        "angle": 0
+      },
+      "keys": [],
+      "exitLines": [
+        {
+          "line": 774,
+          "special": 11,
+          "midpoint": [
+            216.0,
+            -632.0
+          ]
+        }
+      ]
+    }
+  },
+  "license": {
+    "path": "COPYING.adoc",
+    "sha256": "ed60abcf1ff64bf61bf8b4c585ab63643d655a21f8997ba284c01f94ed681fc5"
+  }
+}

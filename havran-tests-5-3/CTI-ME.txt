@@ -1,0 +1,24 @@
+HAVRAN 5.3 — přenosné vývojové testy
+Vyžadují Node.js 20 nebo novější; samotná hra instalaci Node nepotřebuje.
+Testy hledají složky iron-sector a havran-apple-silicon vedle této složky,
+takže fungují po rozbalení kompletního ZIPu i z jiného pracovního adresáře.
+
+Z kořene kompletního rozbaleného balíčku:
+node havran-tests-5-3/run-tests.cjs
+
+Tři hlavní sady:
+  test-uat-53.cjs          210 případů, projití 15 misí v obou variantách
+  test-regression-53.cjs   140 případů v každé variantě
+  performance-edge.cjs     120 případů v reálném WebGL v prohlížeči Edge
+
+První dvě sady a další funkční kontroly spouští run-tests.cjs.
+Výkon má samostatný postup a závislosti v PERFORMANCE-5-3.md.
+Ke stažení celé hry stačí soubor havran-5-3-kampan.zip; ten testy nepotřebuje.
+
+VYSLEDKY.txt a VYSLEDKY.json obsahují ověření přenosných sad ze
+samostatně rozbaleného kompletního ZIPu. UAT-5-3.json je přehled
+jednotlivých akceptačních případů. Zpráva QA-5-3.md uvádí pokrytí,
+nalezené chyby, opravy a podmínky měření.
+
+Kontroly v Node využívají skutečnou herní logiku se simulovaným vstupem.
+Kompilaci shaderů, WebGL a výkon ověřuje samostatný běh v prohlížeči.

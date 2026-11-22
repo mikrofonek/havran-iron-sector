@@ -1,0 +1,45 @@
+{
+  "version": "5.1",
+  "tests": [
+    {
+      "test": "test-character-shot-51.cjs",
+      "passed": true,
+      "durationMs": 349
+    },
+    {
+      "test": "test-gpu-contract-51.cjs",
+      "passed": true,
+      "durationMs": 1199
+    },
+    {
+      "test": "test-graphics-51.cjs",
+      "passed": true,
+      "durationMs": 4343
+    },
+    {
+      "test": "test-level-flow-51.cjs",
+      "passed": true,
+      "durationMs": 562
+    },
+    {
+      "test": "test-render-51.cjs",
+      "passed": true,
+      "durationMs": 5094
+    },
+    {
+      "test": "test-settings-51.cjs",
+      "passed": true,
+      "durationMs": 142
+    },
+    {
+      "test": "test-smart-ai-51.cjs",
+      "passed": true,
+      "durationMs": 723
+    },
+    {
+      "test": "test-tactics-51.cjs",
+      "passed": true,
+      "durationMs": 173
+    }
+  ]
+}

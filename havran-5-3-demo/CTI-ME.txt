@@ -1,0 +1,3 @@
+HAVRAN / IRON SECTOR 5.3 — demo první mise
+Otevři index.html v počítačovém prohlížeči s WebGL. Použij klávesnici a myš.
+WASD pohyb • E sebrat důkaz nebo zbraň • I inventář • R přebít • ESC pauza.

@@ -1,0 +1,22 @@
+HAVRAN / IRON SECTOR 5.3
+
+Rozbal stažený ZIP a otevři index.html v počítačovém prohlížeči
+s podporou WebGL. U samostatných variant je index.html uvnitř složky
+iron-sector (Classic) nebo havran-apple-silicon (Apple Silicon GPU).
+Instalace a připojení k internetu nejsou pro hraní potřeba.
+
+WASD pohyb, myš rozhlížení, Shift sprint, mezerník skok.
+Klik střílí nebo útočí, R přebíjí, E sebere zbraň / důkaz nebo obslouží terminál.
+I otevře inventář, J deník, V zbrojnici, M mapu a N pomoc s trasou.
+B rozsvítí baterku. 0 vybere nůž, kolečko myši přepíná vyzvednuté zbraně.
+Esc pozastaví hru a zpřístupní nastavení hlasitosti, zaměřovače a myši.
+
+Začni s nožem. V každé misi seber tři důkazy a použij terminál.
+Boss se aktivuje po vstupu do arény. Sleduj jeho pohyb a upozornění na útok.
+Po vítězství projdi zeleným východem do dalšího sektoru.
+
+Postup mezi variantami nebo adresami přenes z menu kampaně přes
+„Zálohovat postup“ / „Obnovit postup“. Obnovením začne mise od vstupu.
+Trénink arény a první mise v demu postup v kampani nemění.
+
+Kredity k audiu a grafice jsou ve složce každé varianty v CREDITS.txt.
