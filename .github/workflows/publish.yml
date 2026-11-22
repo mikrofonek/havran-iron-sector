@@ -15,17 +15,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - name: Import prepared release sources once
-        if: hashFiles('README.md') == ''
+      - name: Remove private draft from public content
+        if: hashFiles('docs/vyvoj/LINKEDIN.md') != ''
         run: |
-          curl -fL --retry 3 https://github.com/mikrofonek/havran-iron-sector/releases/download/v5.3.0/havran-5-3-source.tar.xz -o /tmp/havran-source.tar.xz
-          mkdir -p /tmp/havran-source
-          tar -xJf /tmp/havran-source.tar.xz -C /tmp/havran-source
-          cp -R /tmp/havran-source/. .
+          git rm docs/vyvoj/LINKEDIN.md
+          python3 - <<'PYCODE'
+          from pathlib import Path
+          p=Path('README.md')
+          p.write_text(''.join(line for line in p.read_text().splitlines(keepends=True) if 'docs/vyvoj/LINKEDIN.md' not in line))
+          p=Path('README.en.md')
+          p.write_text(p.read_text().replace('[The development story](docs/vyvoj/pribeh-vyvoje.md) and [LinkedIn draft](docs/vyvoj/LINKEDIN.md) are also available.', '[The development story](docs/vyvoj/pribeh-vyvoje.md) is also available.'))
+          PYCODE
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add .
-          git commit -m 'Import HAVRAN 5.3 game, prompts and testing history'
+          git add README.md README.en.md
+          git commit -m 'Remove private LinkedIn draft from public documentation'
           git push origin HEAD:main
           git tag -f v5.3.0
           git push --force origin refs/tags/v5.3.0
@@ -39,7 +43,9 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           python3 scripts/package_release.py
-          gh release upload v5.3.0 dist/*.zip dist/SHA256SUMS.txt --clobber
+          git archive --format=tar HEAD | xz -6 > dist/havran-5-3-source.tar.xz
+          (cd dist && sha256sum havran-5-3-source.tar.xz >> SHA256SUMS.txt)
+          gh release upload v5.3.0 dist/*.zip dist/*.tar.xz dist/SHA256SUMS.txt --clobber
       - name: Build game website
         run: python3 scripts/build_site.py
       - uses: actions/configure-pages@v5
