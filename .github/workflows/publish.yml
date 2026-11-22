@@ -1,0 +1,57 @@
+name: Publish HAVRAN
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: havran-publish
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Import prepared release sources once
+        if: hashFiles('README.md') == ''
+        run: |
+          curl -fL --retry 3 https://github.com/mikrofonek/havran-iron-sector/releases/download/v5.3.0/havran-5-3-source.tar.xz -o /tmp/havran-source.tar.xz
+          mkdir -p /tmp/havran-source
+          tar -xJf /tmp/havran-source.tar.xz -C /tmp/havran-source
+          cp -R /tmp/havran-source/. .
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m 'Import HAVRAN 5.3 game, prompts and testing history'
+          git push origin HEAD:main
+          git tag -f v5.3.0
+          git push --force origin refs/tags/v5.3.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run functional tests
+        run: node havran-tests-5-3/run-tests.cjs
+      - name: Publish verified downloads
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 scripts/package_release.py
+          gh release upload v5.3.0 dist/*.zip dist/SHA256SUMS.txt --clobber
+      - name: Build game website
+        run: python3 scripts/build_site.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
