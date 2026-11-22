@@ -44,7 +44,6 @@ Navigace se sama nezapíná. Nastavení obsahuje hlasitost hudby a efektů, citl
 - [Příběh vývoje v první osobě](docs/vyvoj/pribeh-vyvoje.md).
 - [Jak jsem zpřesňoval zadání a testoval jednotlivé verze](docs/TESTOVANI.md).
 - [Výsledky a podmínky testování](havran-tests-5-3/QA-5-3.md).
-- [Návrh příspěvku na LinkedIn](docs/vyvoj/LINKEDIN.md).
 
 Přepis vznikl z dostupné historie chatu. Obsahuje i požadavky, které se při hraní změnily. Například původně požadovanou venkovní misi autor později odstranil. Vydaná verze má všech 15 misí uvnitř komplexu.
 

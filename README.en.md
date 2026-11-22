@@ -37,7 +37,7 @@ Settings include music and effects volume, crosshair color, sensitivity and fiel
 
 ## Development record
 
-[Development and testing explained](docs/DEVELOPMENT.en.md) covers the author's role, AI implementation, changes between versions, test methods and fixes. The [68 original prompts and groups of screenshot comments](docs/vyvoj/moje-zadani.md) retain their Czech wording. [The development story](docs/vyvoj/pribeh-vyvoje.md) and [LinkedIn draft](docs/vyvoj/LINKEDIN.md) are also available.
+[Development and testing explained](docs/DEVELOPMENT.en.md) covers the author's role, AI implementation, changes between versions, test methods and fixes. The [68 original prompts and groups of screenshot comments](docs/vyvoj/moje-zadani.md) retain their Czech wording. [The development story](docs/vyvoj/pribeh-vyvoje.md) is also available.
 
 The author initially requested more complex maps and an outdoor level, then simplified the routes and removed the outdoor mission after playing. All 15 missions in version 5.3 take place inside the complex.
 
